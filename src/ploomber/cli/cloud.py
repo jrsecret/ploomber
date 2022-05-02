@@ -25,8 +25,8 @@ from ploomber.telemetry.telemetry import check_dir_exist, CONF_DIR, \
     DEFAULT_USER_CONF, read_conf_file, update_conf_file, parse_dag
 
 # dev env
-CLOUD_APP_URL = 'pd02u265lj.execute-api.us-east-1.amazonaws.com'
-PIPELINES_RESOURCE = '/api/pipelines'
+CLOUD_APP_URL = 'api.ploomber.io'
+PIPELINES_RESOURCE = '/pipelines'
 
 headers = {'Content-type': 'application/json'}
 
