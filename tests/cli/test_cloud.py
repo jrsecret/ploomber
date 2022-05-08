@@ -165,7 +165,6 @@ def test_cloud_user_tracked(write_sample_conf):
     key_val = "TEST_KEY12345678987654"
     runner = CliRunner()
     runner.invoke(set_key, args=[key_val], catch_exceptions=False)
-
     assert key_val == telemetry.is_cloud_user()
 
 
